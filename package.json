@@ -1,14 +1,17 @@
 {
-    "name": "member-management-site",
+    "name": "test-signup",
     "version": "1.0.0",
-    "description": "会員登録と顧客管理用のプロジェクト",
+    "description": "Netlify test",
     "main": "index.js",
     "scripts": {
-        "start": "node server.js"
+        "start": "node server.js",
+        "build": "echo 'No build necessary'"
     },
     "dependencies": {
-        "mongoose": "^7.0.0",
-        "dotenv": "^16.0.0"
+        "express": "^4.18.2",
+        "mongoose": "^7.0.0"
     },
-    "devDependencies": {}
+    "devDependencies": {},
+    "author": "Riku Osawa",
+    "license": "ISC"
 }
